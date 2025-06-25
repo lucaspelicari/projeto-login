@@ -26,19 +26,19 @@ main {
 #login {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%; 
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
     transition: width .3s, height .3s;
-    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+    transition-timing-function: ease; 
 }
 
-#login > #img {
+#login > #ima {
     display: block;
     background: #714731 url(../imagens/foto-viagem.jpg) no-repeat;
     background-size:cover;
@@ -59,3 +59,74 @@ main {
 #form > p {
     font-size: 0.8em;
 }
+
+form > .campo {
+    background-color: #6F92BF;
+    border: 2px solid #6F92BF;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.campo > label {
+    display: none;
+}
+
+.campo > img {
+    width: 40px;
+    padding: 5px;
+    font-size: 2em;
+}
+
+.campo > input {
+    background-color: #95BFA7;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    padding: 4px;
+    border-radius: 8px;
+    transform: translateY(-17px);
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #7b9c89;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #3a5747;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: #95BFA7;
+    color: white;
+    border: 1px soli #7b9c89;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #3a5747;
+}
+
+form > a.botao > img {
+    font-size: 0.8em;
+}
+
+

@@ -8,9 +8,10 @@
     
     #login {
         width: 80vw;
+        height: 300px;
     }
 
-    #login > #img {
+    #login > #ima {
         float: left;
         width: 30%;
         height: 100%;
@@ -19,6 +20,14 @@
     #login > #form {
         float: right;
         width: 65%;
+    }
+
+    #form > h1 {
+        font-size: 1.5em;
+    }
+
+    #form > p {
+        font-size: 1em;
     }
 }
 
@@ -30,9 +39,10 @@
 
     #login {
         width: 950px;
+        height: 350px;
     }
 
-    #login > #img {
+    #login > #ima {
         float: left;
         width: 50%;
         height: 100%;
